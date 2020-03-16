@@ -10,10 +10,12 @@
     display: flex;
     align-items: center;    
     padding: 10px;
+    
 }
 header{
     width: 100%;
-    height: 50px;
+    height: 150px;
+    
 }
 header .logo{
     width: 50px;
@@ -30,11 +32,97 @@ header ul img{
     width: 20px;
 }
 header .caixa{
-    width: 50px;
-    height: 30px;
+    width: 80px;
+    height: 25px;
     color: white;
     text-decoration: none;
     background-color: #FB91FF;
     padding: 5px;
     border-radius: 10px;
+    align-items: center;
 }
+.linha{
+    background: #A4CBFF;
+    width: ;
+    height: 5px;
+}
+.caixa{
+    justify-content: space-evenly;
+    display: flex;
+    width: ;
+}
+.card img{
+    width: 200px;
+    display: flex;   
+    border-radius: 10px;
+    box-shadow: black;
+}
+.card{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    width: 80%;
+    margin: 50px;
+    padding: 20px;
+       
+}
+.card a{
+    width: 20px;
+}
+
+.caixa{
+    text-decoration: none;
+    background-color: #FB91FF;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70px;
+}
+.texto{
+    text-decoration: none;
+    padding: 10px;
+    justify-content: center;
+    height: 50px;
+
+}
+.texto li{
+    padding: 10px;
+    height: ;
+}
+.flex2 img{
+    width: 50px;
+    padding: px;
+}
+.rodape{
+    display: flex;
+    padding: ;
+    width: 100%;
+    justify-content: space-between;
+}
+.rodape li{
+    padding: 5px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.texto2 li{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.profile{
+    width: 50px;
+    height: 50px;
+}
+.preto{
+    background: #000;
+    width: 250px;
+    height: 40px;
+}
+
+
