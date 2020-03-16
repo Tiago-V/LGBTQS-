@@ -38,3 +38,47 @@ header .caixa{
     padding: 5px;
     border-radius: 10px;
 }
+.titulo_p{
+    padding: 3em 0 1em 0;
+    text-align: center;
+}
+.formcadastro{
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 10px 3px #474747;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    padding: 1em;
+}
+.campo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+.campo label{
+    text-transform: uppercase;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select{
+    border: none;
+    background-color: var(--background);
+    color: #ccc;
+    border-bottom: 1px solid #474747;
+    width: 60%;
+}   
+.caixa{
+    width: 70px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: #FB91FF;
+    padding: 5px;
+    border-radius: 10px;
+}   
