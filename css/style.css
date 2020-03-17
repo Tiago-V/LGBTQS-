@@ -143,6 +143,7 @@ select{
     color: #ccc;
     border-bottom: 1px solid #474747;
     width: 60%;
+    color: black;
 }   
 .caixa{
     width: 70px;
