@@ -6,7 +6,8 @@ body{
     font-family: 'Titillium Web', sans-serif;
 }
 .container{
-    width: 425px;
+    width: 100%;
+    margin: auto;
 }
 .flex1{
     width: 100%;
@@ -16,6 +17,7 @@ body{
 }
 header{
     width: 100%;
+    max-width: 425px;
     height: 50px;
     margin-bottom: 2em;
     
@@ -48,7 +50,8 @@ header .caixa{
     height: 100px;
     display: flex;
     justify-content: space-between;
-    border: solid 1px #000000;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
 }
 .div1 a, .div2 a{
     font-size: 13px;
@@ -90,7 +93,8 @@ header .caixa{
 }
 .rodape2{
     text-align: center;
-    border: solid 1px #000000;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
 }
 footer{
     margin-top: 2em;
@@ -114,6 +118,11 @@ footer{
     align-items: center;
     align-content: space-between;
     padding: 1em;
+    margin-top: 5em;
+    margin-bottom: 10em;
+}
+.center{
+    margin: auto;
 }
 .campo{
     width: 100%;
@@ -144,8 +153,38 @@ select{
     padding: 5px;
     border-radius: 10px;
 }   
-
-
+/* Responsivo cadastro */
+/* 768px  */
+@media screen and (min-width: 426px){
+    .container{
+        width: 80%;
+    }
+    header{
+        width: 100%;
+        max-width: 768px;
+        display: flex;
+    }
+}
+/* /768px  */
+/* 1366px */
+@media screen and (min-width: 769px){
+    .container{
+        width: 70%;
+    }
+    header{
+        width: 100%;
+        max-width: 1366px;
+    }
+    header .logo{
+        width: 100px;
+    }   
+    .formcadastro{
+        margin-bottom:10em;
+        margin-top: 5em;
+    }   
+}
+/* /1366px */
+/* Fim Cadastro */
 /* PERFIL */
 
 
@@ -168,6 +207,7 @@ select{
     align-items: center;
     flex-direction: column;
     padding: 1em;
+    margin-top: 5em;
 }
 .perfil2{
     width: 80%;
@@ -193,6 +233,25 @@ select{
     background-color: rgb(219, 218, 218);
     border-radius: 20px;
     padding: 1.5em;
+    margin-bottom: 10em;
 }
-
-
+/* Responsividade Perfil */
+/* 768px */
+@media screen and (min-width: 769px){
+    .sobre{
+        margin-bottom: 10em;
+    }
+    .perfil1{
+        margin-top: 5em;
+    }
+}
+/* Fim Perfil */
+@media screen and (min-width: 1367px){
+    header{
+        width: 100%;
+        max-width: 1900px;
+    }
+    .container{
+        width: 80%;
+    }
+}
