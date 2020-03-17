@@ -332,4 +332,36 @@ select{
 .digitar div{
     padding: 0.5em;
 }
+@media screen and (min-width: 426px){
+    .container{
+        width: 80%;
+        max-width: 768px;
+        margin: auto;
+    }
+    .digitar{
+        width: 80%;
+    }
+    .topoperfil{
+        padding: 0.5em;
+    }
+}
+@media screen and (min-width: 769px){
+    .container{
+        width: 80%;
+        max-width: 1366px;
+        margin: auto;
+    }
+    .pessoa1, .pessoa2{
+        width: 30em;
+    }
+    .digitar{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+    .topoperfil{
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+}
+
 /* FIM CHAT */
