@@ -256,3 +256,80 @@ select{
         width: 80%;
     }
 }
+
+/* CHAT */
+.chat1{
+    width: 80%;
+    max-width: 425px;
+    margin: auto;
+}
+.chat1 .usu{
+    padding: 0.5em;
+    border-radius: 5em;
+    border:solid 1px #000000;
+}
+.chat1 img{
+    width: 1.5em;
+}
+.chat1 h2{
+    font-size: 1em;
+}
+.topoperfil{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    align-items: center;
+    border-radius: 3em;
+    border: solid 1px #000000;
+    padding: 0.2em; 
+}
+.pessoa12{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.pessoa1{
+    width: 13em;
+    height: 2em;
+    background-color: rgba(112, 198, 255, 0.623);
+    border-radius: 3em;
+    margin: 1em;
+}
+.pessoa1 p{
+    text-align: center;
+    padding-top: 0.2em;
+}
+.pessoa22{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.pessoa2{
+    width: 13em;
+    height: 2em;
+    background-color: rgba(145, 145, 145, 0.623);
+    border-radius: 3em;
+    margin: 1em;
+}
+.pessoa2 p{
+    text-align: center;
+    padding-top: 0.2em;
+}
+.digitar img{
+    width: 1em;
+}
+.digitar{
+    margin: 10em auto 0 auto;
+    width: 90%;
+    height: 2em;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.digitar div{
+    padding: 0.5em;
+}
+/* FIM CHAT */
